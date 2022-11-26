@@ -7,7 +7,8 @@ def hello():
 @app.route('/home')
 def home():
     return "<h1>Welcome home<h1>" \
-           "<h2>Git Class Hands On</h2>"
+           "<h2>Git Class Hands On</h2>" \
+"<h3>Third line<h3>"
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
 
